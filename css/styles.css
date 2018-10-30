@@ -158,7 +158,7 @@
 }
 /*Навигация*/
 
-.flex-nav {
+.flex-nav { 
 	margin: 0;
 	display: flex;
 	list-style: none;
@@ -215,4 +215,71 @@
 
 .nav-items:first-child:hover {
 	border-bottom: 3px solid #f16d7f;
+}
+/*Слайдер*/
+
+.slider {
+	background-color: #e8e8e8;;
+	height: 600px;
+	background-image: url(../img/bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+} 
+
+.text-slider {
+	border-left: 6px solid #f16d7f;
+	font-size: 41px;
+	padding: 0 10px;
+}
+
+.brand {
+	color: #222222;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 60px;
+	letter-spacing: 1.5px;
+}
+
+.fashion {
+	color: #f16d7f;
+	letter-spacing: 1px;
+}
+
+/*Категории*/
+
+.category {
+	margin-top: 90px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	height: 900px;
+}
+
+.category-box{
+	position: relative;
+	margin: 25px 25px 0 0;
+}
+
+.category-box:hover {
+	cursor: pointer;
+}
+
+.category-box:hover img {
+	opacity: 0.5;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5); 
+}
+
+.category-box-title {
+	font-size: 18px;
+	font-weight: 900;
+	text-transform: uppercase;
+	padding: 17px 20px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 25px;
+}
+
+.category-box-title-red {
+	color: #f16d7f;
+	font-size: 30px;
 }
