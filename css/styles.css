@@ -344,6 +344,7 @@
 }
 
 .product-btn {
+	margin-top: 50px;
 	text-align: center;
 	padding: 20px;
 }
@@ -353,6 +354,7 @@
 .feature {
 	position: relative;
 	margin-top: 90px;
+	margin-bottom: 90px;
 
 }
 
@@ -379,6 +381,7 @@
 }
 
 .offer {
+	padding: 50px 0 20px 0px;
 	height: 529px;
 	display:flex;
 	flex-direction: column;
@@ -388,7 +391,7 @@
 
 .offer-items {
 	display: flex;
-	padding-left: 25px;
+	padding: 10px 23px;
 }
 
 .offer-items img {
@@ -397,7 +400,7 @@
 }
 
 .offer-items h3 {
-	padding: 0 30px;
+    padding: 0 20px;
 	margin: 0;
 	color: #fbfbfb;
 	font-size: 20px;
